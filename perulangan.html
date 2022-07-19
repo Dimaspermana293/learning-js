@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Perulangan</title>
+</head>
+<body>
+      <script> 
+            // perulangan for 
+            // for( counter=10; counter>0; counter--){
+            //       document.write("Perulangan ke-" + counter +"</br>");
+            // }
+
+            // perulangan while
+            // var ulangi = confirm("Apakah anda mau mengulang?")
+            // var counter = 0;
+
+            // while(ulangi){
+            //       var jawab = confirm("Apakah anda mau mengulang?")
+            //       counter++;
+            //       if(jawab == false){
+            //             ulangi = false;
+            //       }
+            // }
+
+            // perulangan Do While
+            // perulangan do while akan dieksekusi 1 kali terlebih dahulu
+            // var ulangi = confirm("Apakah anda mau mengulang?")
+            // var counter = 0;
+
+            // do{
+            //       counter ++;
+            //       ulangi = confirm("Apakah anda mau mengulang?")
+            // }while(ulangi){
+            //       document.write("Perulangan sudah dilakukan sebanyak"+ counter +"Kali")
+            // }
+
+            // perulangan for each dengan Array
+            var languanges = ['Indonesia','Germany','Inggris','Belanda'];
+
+            // for(i=0; i<languanges.length; i++){
+            //       document.write(i + "."+ languanges[i]+ "</br>")
+            // }
+
+            // lebih sederhana lagi
+            for(i in languanges){
+                  document.write(i + "." + languanges[i]+ "</br>")
+            }
+      </script>
+</body>
+</html>
